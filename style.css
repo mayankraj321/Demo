@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    height: 40px;
+    width: 100px;
+    padding-right: 10px;
+    background-color: #000000;
+    padding-left: 40px;
+    left: 0px;
+}
+.fly{
+  width: 100vw;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color:#000000;
+    color: aliceblue;
+    top: 0px;
+    left: 150px;
+    right: 200px;
+    font-size: 15px;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 0px;
+    padding-right:300px;
+    padding-left: 0px;
+    width: 660px;
+}
+ul{
+list-style: none;
+} 
+.button-small{
+    position: fixed;
+    
+}
+.hero-heading{
+    font-size: 85px;
+    color: #ffffff;
+    position: absolute;
+    top: 40px;
+    left: 230px;
+    right: 40px;
+    text-align: center;
+}
+.hero-description{
+    position: absolute;
+    font-size: 30px;
+    top: 300px;
+    color: #ffffff;
+    left: 320px;
+
+}
+.button-large{
+    position: absolute;
+    top: 400px;
+    height: 60px;
+    width: 300px;
+    left: 460px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #0000ff;
+    border: 0px;
+
+}
+.button-small{
+    position: absolute;
+    top: 15px;
+    height: 30px;
+    width: 120px;
+    left: 900px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0000ff;
+    border: 0px;
+}
